@@ -1,5 +1,4 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import './Globale.css';
 import Hero from './components/Hero/Hero';
 import Lebenslauf from './components/Lebenslauf/lebenslauf';
 import Kontakt from './components/Kontakt/Kontakt';
