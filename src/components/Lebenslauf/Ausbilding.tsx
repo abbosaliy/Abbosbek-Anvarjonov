@@ -1,11 +1,9 @@
 function Ausbildung() {
   return (
-    <div className="flex flex-col  min-h-[70vh] w-full gap-20">
-      <div className="flex flex-col items-center 2xl:items-start text-center gap-15 ">
-        <h1 className="font-semibold text-4xl  2xl:text-6xl">
-          Meine Ausbildung
-        </h1>
-        <p className="text-slate-400 font-mono text-xl 2xl:text-start 2xl:text-[23px] ">
+    <div className="flex flex-col gap-10 pb-10">
+      <div className="flex flex-col items-center xl:items-start text-center gap-8 ">
+        <h1 className="font-semibold text-4xl  ">Meine Ausbildung</h1>
+        <p className="text-slate-400 font-mono text-xl xl:text-start  ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
           quidem accusantium et, sit neque vitae sunt tempora est? Illum, enim
           inventore. Tempora deserunt perspiciatis harum error molestias
@@ -14,14 +12,13 @@ function Ausbildung() {
           est ipsa totam repudiandae corrupti recusandae molestias odit itaque
         </p>
       </div>
-      <div className=" flex flex-wrap gap-10">
-        <div className="w-full flex flex-col items-center text-center justify-center  rounded-md bg-slate-800 p-8 gap-2">
-          <p className="text-2xl text-blue-500 font-bold">2025</p>
-          <h2 className="text-3xl font-mono text-white pt-3">
-            Front-End <br />
-            Web Devolopment
+      <div className="max-h-[500px] grid grid-cols-4 gap-6  overscroll-contain overflow-y-auto">
+        <div className="h-[184px] col-span-4 lg:col-span-2 lg:items-start flex flex-col items-center  rounded-md bg-slate-800 p-6 gap-6">
+          <p className="text-xl text-blue-500 font-bold">2025 - bis jetzt</p>
+          <h2 className="text-xl font-mono text-white ">
+            Front-End Web Devolopment
           </h2>
-          <h2 className="flex items-center gap-2 text-slate-400 text-xl font-[550] pt-2">
+          <h2 className="flex items-center gap-2 text-slate-400 text-lg">
             <span className=" text-blue-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -40,13 +37,12 @@ function Ausbildung() {
             WeiterBildung - DevKarriere
           </h2>
         </div>
-        <div className="w-full flex flex-col items-center text-center justify-center  rounded-md bg-slate-800 p-8 gap-2">
-          <p className="text-2xl text-blue-500 font-bold">2024</p>
-          <h2 className="text-3xl font-mono text-white pt-3">
-            Front-End <br />
-            Devolopment
+        <div className="h-[184px] col-span-4 lg:col-span-2 lg:items-start flex flex-col items-center   rounded-md bg-slate-800 p-6 gap-4">
+          <p className="text-xl text-blue-500 font-bold">2024</p>
+          <h2 className="text-xl font-mono text-white">
+            Front-End Devolopment
           </h2>
-          <h2 className="flex items-center gap-2 text-slate-400 text-xl font-[550] pt-2">
+          <h2 className="flex items-center gap-2 text-slate-400 text-xl ">
             <span className=" text-blue-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -65,15 +61,13 @@ function Ausbildung() {
             Front-End Bootcamp - PDP Academy
           </h2>
         </div>
-
-        <div className="w-full flex flex-col items-center text-center justify-center  rounded-md bg-slate-800 p-8 gap-2">
-          <p className="text-2xl text-blue-500 font-bold">2021-2024</p>
-          <h2 className="text-3xl font-mono text-white pt-3">
-            Qualifitzierte
-            <br />
-            Berufskraftfahrer
+        <div className="h-[184px] col-span-4 lg:col-span-2 lg:items-start flex flex-col items-center justify-center  rounded-md bg-slate-800 py-6 px-10 gap-2">
+          <p className="text-xl text-blue-500 font-bold">2021-2024</p>
+          <h2 className="text-xl font-mono text-white">
+            Qualifitzierte Berufskraftfahrer
           </h2>
-          <h2 className="flex items-center gap-2 text-slate-400 text-xl font-[550] pt-2">
+
+          <h2 className="flex items-center gap-2 text-slate-400 text-xl ">
             <span className=" text-blue-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

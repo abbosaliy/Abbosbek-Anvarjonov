@@ -16,7 +16,7 @@ const activeLinksClass = ({ isActive }: { isActive: boolean }): string =>
 function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   return (
     <div
-      className={`fixed    2xl:hidden top-0 right-0 h-full w-80 flex flex-col items-center  p-10  gap-40 shadow-lg bg-slate-950 transform transition-transform duration-300 z-50 ${
+      className={`fixed    xl:hidden top-0 right-0 h-full w-80 flex flex-col items-center  p-10  gap-40 shadow-lg bg-slate-950 transform transition-transform duration-300 z-50 ${
         isOpen ? 'translate-x-0' : 'translate-x-full'
       }`}
     >
@@ -29,7 +29,7 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         </button>
       </div>
       <div className="flex flex-col items-center gap-40 ">
-        <h1 className="font-semibold text-4xl  2xl:text-6xl">
+        <h1 className="font-semibold text-4xl">
           Abbosbek <span className="text-blue-500">.</span>
         </h1>
 

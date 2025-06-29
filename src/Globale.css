@@ -10,38 +10,18 @@ body {
 
 .container {
   width: 100%;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-@layer utilities {
-  @media (max-width: 768px) {
-    .container {
-      max-width: 768;
-    }
-  }
-
-  @media (min-width: 1200px) {
-    .container {
-      padding-left: 6rem;
-      padding-right: 6rem;
-      padding-top: 4rem;
-      padding-bottom: 4rem;
-    }
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
   }
 }
 
-@keyframes spin-slow {
-  0% {
-    transform: rotate(0deg);
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
   }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.spin-slow {
-  animation: spin-slow 10s linear infinite;
 }

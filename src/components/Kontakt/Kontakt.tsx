@@ -44,8 +44,8 @@ function Kontakt() {
             </div>
           </div>
 
-          <div className="flex flex-col items-start bg-slate-800 p-8 gap-8 ">
-            <h1 className="text-5xl text-blue-500">
+          <div className="flex flex-col items-start bg-slate-800 p-6 gap-8 ">
+            <h1 className="text-4xl text-blue-500">
               Lassen Sie uns <br /> zusammenarbeiten.
             </h1>
             <p className="text-white/80 text-xl">
