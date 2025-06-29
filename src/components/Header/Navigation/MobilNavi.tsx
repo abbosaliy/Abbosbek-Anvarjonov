@@ -36,7 +36,7 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         <ul className="flex flex-col items-center gap-10">
           <li>
             <NavLink
-              to={'/'}
+              to={'/Abbosbek-Anvarjonov/'}
               className={activeLinksClass}
             >
               StartSeite
@@ -44,7 +44,7 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           </li>
           <li>
             <NavLink
-              to={'/lebenslauf'}
+              to={'/Abbosbek-Anvarjonov/lebenslauf'}
               className={activeLinksClass}
             >
               Lebenslauf
@@ -52,7 +52,7 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           </li>
           <li>
             <NavLink
-              to={'/projekte'}
+              to={'/Abbosbek-Anvarjonov/projekte'}
               className={activeLinksClass}
             >
               Projekte
@@ -60,7 +60,7 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           </li>
           <li>
             <NavLink
-              to={'/kontakt'}
+              to={'/Abbosbek-Anvarjonov/kontakt'}
               className={activeLinksClass}
             >
               Kontakt

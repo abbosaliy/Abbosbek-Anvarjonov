@@ -2,7 +2,7 @@ import { Outlet } from 'react-router-dom';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 
-function Seidbar() {
+function Root() {
   return (
     <div className="flex flex-col items-center">
       <div className="container flex  flex-col gap-10">
@@ -16,4 +16,4 @@ function Seidbar() {
   );
 }
 
-export default Seidbar;
+export default Root;

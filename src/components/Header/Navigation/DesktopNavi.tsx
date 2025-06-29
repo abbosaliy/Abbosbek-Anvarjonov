@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 
 const activeLinksClass = ({ isActive }: { isActive: boolean }): string =>
-  `text-xl ${
+  `text-2xl ${
     isActive
       ? 'underline underline-offset-8 decoration-blue-500 decoration-2 '
       : ''
@@ -12,7 +12,7 @@ function DesktopNavi() {
       <ul className="flex  items-center gap-15">
         <li>
           <NavLink
-            to={'/'}
+            to={'/Abbosbek-Anvarjonov/'}
             className={activeLinksClass}
           >
             StartSeite
@@ -20,7 +20,7 @@ function DesktopNavi() {
         </li>
         <li>
           <NavLink
-            to={'/lebenslauf'}
+            to={'/Abbosbek-Anvarjonov/lebenslauf'}
             className={activeLinksClass}
           >
             Lebenslauf
@@ -28,7 +28,7 @@ function DesktopNavi() {
         </li>
         <li>
           <NavLink
-            to={'/projekte'}
+            to={'/Abbosbek-Anvarjonov/projekte'}
             className={activeLinksClass}
           >
             Projekte
@@ -36,7 +36,7 @@ function DesktopNavi() {
         </li>
         <li>
           <NavLink
-            to={'/kontakt'}
+            to={'/Abbosbek-Anvarjonov/kontakt'}
             className={activeLinksClass}
           >
             Kontakt
@@ -44,7 +44,7 @@ function DesktopNavi() {
         </li>
         <li>
           <NavLink
-            to={'/kontakt'}
+            to={'/Abbosbek-Anvarjonov/kontakt'}
             className="text-xl bg-blue-500 rounded-full p-4"
           >
             Hire me

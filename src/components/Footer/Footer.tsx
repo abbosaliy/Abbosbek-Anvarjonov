@@ -1,7 +1,5 @@
 import { useState } from 'react';
-
 import Button from '../UI/Button';
-
 import Datenschutsz from '../UI/DatenShutz';
 import Impressum from '../UI/Impressum';
 
