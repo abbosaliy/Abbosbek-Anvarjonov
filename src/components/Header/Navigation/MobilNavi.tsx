@@ -16,7 +16,7 @@ const activeLinksClass = ({ isActive }: { isActive: boolean }): string =>
 function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   return (
     <div
-      className={`fixed    xl:hidden top-0 right-0 h-full w-80 flex flex-col items-center  p-10  gap-40 shadow-lg bg-slate-950 transform transition-transform duration-300 z-50 ${
+      className={`fixed xl:hidden top-0 right-0 h-full w-70 flex flex-col items-center p-10  gap-20 bg-slate-800 transform transition-transform duration-400 z-50 ${
         isOpen ? 'translate-x-0' : 'translate-x-full'
       }`}
     >
@@ -28,15 +28,15 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           <HiOutlineX className="w-10 h-10" />
         </button>
       </div>
-      <div className="flex flex-col items-center gap-40 ">
-        <h1 className="font-semibold text-4xl">
+      <div className="flex flex-col items-center gap-30 ">
+        <h1 className="font-semibold text-3xl">
           Abbosbek <span className="text-blue-500">.</span>
         </h1>
-
         <ul className="flex flex-col items-center gap-10">
           <li>
             <NavLink
               to={'/Abbosbek-Anvarjonov/'}
+              onClick={onClose}
               className={activeLinksClass}
             >
               StartSeite
@@ -45,6 +45,7 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           <li>
             <NavLink
               to={'/Abbosbek-Anvarjonov/lebenslauf'}
+              onClick={onClose}
               className={activeLinksClass}
             >
               Lebenslauf
@@ -53,6 +54,7 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           <li>
             <NavLink
               to={'/Abbosbek-Anvarjonov/projekte'}
+              onClick={onClose}
               className={activeLinksClass}
             >
               Projekte
@@ -61,6 +63,7 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           <li>
             <NavLink
               to={'/Abbosbek-Anvarjonov/kontakt'}
+              onClick={onClose}
               className={activeLinksClass}
             >
               Kontakt

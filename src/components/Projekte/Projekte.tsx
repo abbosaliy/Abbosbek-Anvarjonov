@@ -47,7 +47,7 @@ const projects: Project[] = [
 ];
 
 function ProjekteCard() {
-  const [currentIndex, setCurrentIndex] = useState<number>(1);
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   function hadleNext() {
     if (currentIndex < projects.length - 1) {
@@ -66,29 +66,29 @@ function ProjekteCard() {
   }
 
   return (
-    <div className="container flex  flex-col custom-padding custom-gap">
-      <div className=" flex  flex-col 2xl:flex-row gap-10 2xl:justify-between items-center pt-30">
-        <div className="relative h-[500px] w-full  2xl:order-2">
+    <div className="container">
+      <div className=" flex    flex-col xl:flex-row gap-10 xl:justify-between ">
+        <div className="relative h-full  w-full   xl:order-2">
           <img
-            className="h-full w-full object-cover shadow-lg"
+            className="h-full w-full object-cover"
             src={projects[currentIndex].image}
             alt="photo"
           />
           <Button
             onClick={handlePrev}
             title=""
-            className="2xl:hidden absolute top-1/2 left-4 -translate-y-1/2 bg-blue-500 hover:bg-white text-black p-3 rounded-lg shadow transition cursor-pointer"
+            className="xl:hidden absolute top-1/2 left-4 -translate-y-1/2 bg-blue-500 hover:bg-white text-black p-3 rounded-lg shadow transition cursor-pointer"
           >
             <GoChevronLeft />
           </Button>
           <Button
             onClick={hadleNext}
             title=""
-            className="2xl:hidden absolute top-1/2 right-4 -translate-y-1/2 bg-blue-500 hover:bg-white text-black p-3  rounded-lg shadow transition cursor-pointer"
+            className="xl:hidden absolute top-1/2 right-4 -translate-y-1/2 bg-blue-500 hover:bg-white text-black p-3  rounded-lg shadow transition cursor-pointer"
           >
             <GoChevronRight />
           </Button>
-          <div className=" max-2xl:hidden flex items-center justify-end gap-10 pt-8 ">
+          <div className=" max-xl:hidden flex items-center justify-end gap-10 pt-8 ">
             <Button
               onClick={handlePrev}
               title=""
@@ -107,14 +107,14 @@ function ProjekteCard() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-8 2xl:w-350 ">
-          <h1 className=" text-7xl md:text-8xl ">
-            {projects[currentIndex].number}
-          </h1>
-          <h1 className="text-4xl md:text-6xl">
+        <div className="flex flex-col gap-8 xl:w-350 ">
+          <h1 className="text-8xl ">{projects[currentIndex].number}</h1>
+          <h1 className="text-5xl font-bold ">
             {projects[currentIndex].title}
           </h1>
-          <p className="text-xl">{projects[currentIndex].description}</p>
+          <p className="text-xl text-slate-400">
+            {projects[currentIndex].description}
+          </p>
           <h2 className="text-blue-500 text-lg md:text-2xl font-bold  pb-3 border-b-3 border-b-white/30 ">
             {projects[currentIndex].tools}
           </h2>

@@ -12,10 +12,10 @@ function Ausbildung() {
           est ipsa totam repudiandae corrupti recusandae molestias odit itaque
         </p>
       </div>
-      <div className="max-h-[500px] grid grid-cols-4 gap-6  overscroll-contain overflow-y-auto">
-        <div className="h-[184px] col-span-4 lg:col-span-2 lg:items-start flex flex-col items-center  rounded-md bg-slate-800 p-6 gap-6">
+      <div className="max-h-[500px] grid grid-cols-4 gap-4  overscroll-contain overflow-y-auto ">
+        <div className="h-[184px] col-span-4 lg:col-span-2 lg:items-start flex flex-col items-center  rounded-md bg-slate-800 p-6 gap-2">
           <p className="text-xl text-blue-500 font-bold">2025 - bis jetzt</p>
-          <h2 className="text-xl font-mono text-white ">
+          <h2 className="text-xl font-mono text-white">
             Front-End Web Devolopment
           </h2>
           <h2 className="flex items-center gap-2 text-slate-400 text-lg">
@@ -37,7 +37,7 @@ function Ausbildung() {
             WeiterBildung - DevKarriere
           </h2>
         </div>
-        <div className="h-[184px] col-span-4 lg:col-span-2 lg:items-start flex flex-col items-center   rounded-md bg-slate-800 p-6 gap-4">
+        <div className="h-[184px] col-span-4 lg:col-span-2 lg:items-start flex flex-col items-center   rounded-md bg-slate-800 p-6 gap-2">
           <p className="text-xl text-blue-500 font-bold">2024</p>
           <h2 className="text-xl font-mono text-white">
             Front-End Devolopment
@@ -61,10 +61,10 @@ function Ausbildung() {
             Front-End Bootcamp - PDP Academy
           </h2>
         </div>
-        <div className="h-[184px] col-span-4 lg:col-span-2 lg:items-start flex flex-col items-center justify-center  rounded-md bg-slate-800 py-6 px-10 gap-2">
+        <div className="h-[184px] col-span-4 lg:col-span-2 lg:items-start flex flex-col items-center  rounded-md bg-slate-800 p-6  gap-2">
           <p className="text-xl text-blue-500 font-bold">2021-2024</p>
           <h2 className="text-xl font-mono text-white">
-            Qualifitzierte Berufskraftfahrer
+            Qualifitzierte <br /> Berufskraftfahrer
           </h2>
 
           <h2 className="flex items-center gap-2 text-slate-400 text-xl ">
