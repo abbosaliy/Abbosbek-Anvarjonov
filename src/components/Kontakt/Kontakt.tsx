@@ -45,8 +45,8 @@ function Kontakt() {
           </div>
         </div>
 
-        <div className="xl:w-[54%] flex flex-col items-start rounded-md bg-slate-800 p-6 gap-5 ">
-          <h1 className="text-4xl text-blue-500">
+        <div className="xl:w-[54%] flex flex-col items-start rounded-md bg-slate-800 p-4 gap-5 ">
+          <h1 className="text-3xl text-blue-500">
             Lassen Sie uns zusammenarbeiten.
           </h1>
           <p className="text-slate-400 text-xl">

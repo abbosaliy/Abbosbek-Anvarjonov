@@ -1,9 +1,9 @@
 import { NavLink } from 'react-router-dom';
 
 const activeLinksClass = ({ isActive }: { isActive: boolean }): string =>
-  `font-medium ${
+  `text-md font-bold hover:text-blue-500  duration-300 ${
     isActive
-      ? 'underline underline-offset-8 decoration-blue-500 decoration-2 '
+      ? 'text-blue-500 underline underline-offset-8 decoration-blue-500 decoration-2 '
       : ''
   }`;
 function DesktopNavi() {
@@ -12,7 +12,7 @@ function DesktopNavi() {
       <ul className="flex  items-center gap-15">
         <li>
           <NavLink
-            to={'/Abbosbek-Anvarjonov/'}
+            to={'/'}
             className={activeLinksClass}
           >
             StartSeite
@@ -20,7 +20,7 @@ function DesktopNavi() {
         </li>
         <li>
           <NavLink
-            to={'/Abbosbek-Anvarjonov/lebenslauf'}
+            to={'lebenslauf'}
             className={activeLinksClass}
           >
             Lebenslauf
@@ -28,7 +28,7 @@ function DesktopNavi() {
         </li>
         <li>
           <NavLink
-            to={'/Abbosbek-Anvarjonov/projekte'}
+            to={'projekte'}
             className={activeLinksClass}
           >
             Projekte
@@ -36,7 +36,7 @@ function DesktopNavi() {
         </li>
         <li>
           <NavLink
-            to={'/Abbosbek-Anvarjonov/kontakt'}
+            to={'kontakt'}
             className={activeLinksClass}
           >
             Kontakt
@@ -44,8 +44,8 @@ function DesktopNavi() {
         </li>
         <li>
           <NavLink
-            to={'/Abbosbek-Anvarjonov/kontakt'}
-            className=" bg-blue-500 rounded-full p-4"
+            to={'kontakt'}
+            className=" bg-blue-500 rounded-full p-4 hover:bg-blue-600 duration-300"
           >
             Hire me
           </NavLink>

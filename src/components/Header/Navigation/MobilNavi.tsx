@@ -7,9 +7,9 @@ interface MobileMenuProps {
 }
 
 const activeLinksClass = ({ isActive }: { isActive: boolean }): string =>
-  `text-2xl ${
+  `text-2xl hover:text-blue-500 duration-300 ${
     isActive
-      ? 'underline underline-offset-8 decoration-blue-500 decoration-2 '
+      ? 'text-blue-500 underline underline-offset-8 decoration-blue-500 decoration-2 '
       : ''
   }`;
 
@@ -35,7 +35,7 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         <ul className="flex flex-col items-center gap-10">
           <li>
             <NavLink
-              to={'/Abbosbek-Anvarjonov/'}
+              to={'/'}
               onClick={onClose}
               className={activeLinksClass}
             >
@@ -44,7 +44,7 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           </li>
           <li>
             <NavLink
-              to={'/Abbosbek-Anvarjonov/lebenslauf'}
+              to={'lebenslauf'}
               onClick={onClose}
               className={activeLinksClass}
             >
@@ -53,7 +53,7 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           </li>
           <li>
             <NavLink
-              to={'/Abbosbek-Anvarjonov/projekte'}
+              to={'projekte'}
               onClick={onClose}
               className={activeLinksClass}
             >
@@ -62,7 +62,7 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           </li>
           <li>
             <NavLink
-              to={'/Abbosbek-Anvarjonov/kontakt'}
+              to={'kontakt'}
               onClick={onClose}
               className={activeLinksClass}
             >

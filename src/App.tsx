@@ -6,30 +6,35 @@ import ProjekteCard from './components/Projekte/Projekte';
 import Root from './components/routes/route';
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createBrowserRouter(
+    [
+      {
+        path: '/',
+        element: <Root />,
+        children: [
+          {
+            index: true,
+            element: <Hero />,
+          },
+          {
+            path: 'lebenslauf',
+            element: <Lebenslauf />,
+          },
+          {
+            path: 'projekte',
+            element: <ProjekteCard />,
+          },
+          {
+            path: 'kontakt',
+            element: <Kontakt />,
+          },
+        ],
+      },
+    ],
     {
-      path: '/Abbosbek-Anvarjonov',
-      element: <Root />,
-      children: [
-        {
-          index: true,
-          element: <Hero />,
-        },
-        {
-          path: 'lebenslauf',
-          element: <Lebenslauf />,
-        },
-        {
-          path: 'projekte',
-          element: <ProjekteCard />,
-        },
-        {
-          path: 'kontakt',
-          element: <Kontakt />,
-        },
-      ],
-    },
-  ]);
+      basename: '/Abbosbek-Anvarjonov',
+    }
+  );
   return <RouterProvider router={router}></RouterProvider>;
 }
 
