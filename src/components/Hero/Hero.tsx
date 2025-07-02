@@ -26,7 +26,7 @@ function Hero() {
           </p>
           <div className="flex flex-col  items-center gap-10 xl:flex-row">
             <NavLink
-              to={'/Abbosbek-Anvarjonov/projekte'}
+              to={'projekte'}
               className=" font-bold  justify-center  gap-2 rounded-full border-2 px-15 py-3 xl:px-20   text-lg    border-blue-500 hover:bg-blue-500 hover:text-slate-950 transition-all whitespace-nowrap duration-300"
             >
               Projekte Ansehen

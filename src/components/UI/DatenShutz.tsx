@@ -1,7 +1,21 @@
-function Datenschutsz() {
+import { GoX } from 'react-icons/go';
+import Button from './Button';
+
+interface Props {
+  onclose: () => void;
+}
+
+function Datenschutsz({ onclose }: Props) {
   return (
     <div className="fixed  inset-0  bg-black/50 flex  items-center  justify-center ">
-      <div className=" flex flex-col  items-start gap-5 bg-slate-800 text-xl text-white/80 rounded-lg p-10  w-[600px] h-[600px] relative  max-h-[90%] overflow-auto    ">
+      <div className=" flex flex-col  items-start gap-5 bg-slate-800 text-xl text-white/80 rounded-lg p-10  w-[600px] h-[600px] relative  max-h-[90%] overflow-auto">
+        <Button
+          onClick={onclose}
+          className="text-blue-500 cursor-pointer hover:text-blue-400"
+          title=""
+        >
+          <GoX className="w-8 h-8"></GoX>
+        </Button>
         <h1 className="text-blue-500 font-bold text-2xl">Datenschutz</h1>
         <p className="text-left">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, nihil
