@@ -85,7 +85,7 @@ function Kontakt() {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="flex w-full flex-col gap-8"
+            className="flex w-full flex-col  gap-8"
           >
             <div className="w-full flex flex-col md:flex-row gap-5 items-center">
               <div className="w-full flex flex-col md:flex-row gap-5 items-center">
