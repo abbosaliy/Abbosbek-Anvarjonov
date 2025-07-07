@@ -9,7 +9,7 @@ function Lebenslauf() {
 
   return (
     <div className="container">
-      <div className="flex w-full flex-col xl:flex-row xl:items-start  items-center gap-20">
+      <div className="flex w-full flex-col xl:flex-row xl:items-start  items-center gap-20 pt-15">
         <div className=" w-full max-w-[380px]     flex flex-col   gap-8">
           <Button
             onClick={() => setActiveSection('ausbildung')}

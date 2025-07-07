@@ -1,11 +1,11 @@
+import { GoArrowDown } from 'react-icons/go';
 import Photo from '../Hero/Photo/Photo';
 import SocialLinks from '../UI/SocialLinks';
-import { NavLink } from 'react-router-dom';
 
 function Hero() {
   return (
     <div className="container flex  flex-col">
-      <div className="flex flex-col  gap-15 items-center xl:flex-row xl:justify-between xl:items-start xl:pb-40">
+      <div className="flex flex-col  gap-15 items-center xl:flex-row xl:justify-between xl:items-start xl:pb-40 pt-15">
         <Photo />
         <div className="flex  text-center items-center xl:items-start xl:text-left flex-col">
           <h2 className="text-xl xl:text-2xl">
@@ -19,18 +19,21 @@ function Hero() {
             </span>
           </h1>
           <p className="max-w-[500px] pt-6 text-lg xl:text-xl pb-8 text-slate-400 font-mono">
-            Mein Name ist Abbosbek Anvarjonov und ich bin Softwareentwickler mit
-            Schwerpunkt auf den Bereich Frontend Web Development aus der schönen
-            Stadt Halle (Saalle). Ich liebe es neue Dinge zu lernen und Ideen in
-            die Realität zu bringen.
+            Ich bin ein leidenschaftlicher Frontend-Entwickler mit Fokus auf
+            moderne Webtechnologien wie React, TypeScript, Tailwind CSS und
+            responsive Design. Ich entwickle benutzerfreundliche, performante
+            und visuell ansprechende Webanwendungen. Mein Ziel ist es, intuitive
+            Benutzeroberflächen zu gestalten und stetig neue Technologien zu
+            erlernen.
           </p>
           <div className="flex flex-col  items-center gap-10 xl:flex-row">
-            <NavLink
-              to={'projekte'}
-              className=" font-bold  justify-center  gap-2 rounded-full border-2 px-15 py-3 xl:px-20   text-lg    border-blue-500 hover:bg-blue-500 hover:text-slate-950 transition-all whitespace-nowrap duration-300"
+            <a
+              href="#projekte"
+              className=" flex items-center font-bold  justify-center  gap-2 rounded-full border-2 px-15 py-3 xl:px-20   text-lg    border-blue-500 hover:bg-blue-500 hover:text-slate-950 transition-all whitespace-nowrap duration-300"
             >
               Projekte Ansehen
-            </NavLink>
+              <GoArrowDown className="text-xl  font-bold" />
+            </a>
             <SocialLinks />
           </div>
         </div>
