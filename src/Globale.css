@@ -6,6 +6,9 @@ body {
   border: none;
   box-sizing: border-box;
   font-family: 'Fira Code', monospace;
+}
+
+html {
   scroll-behavior: smooth;
 }
 
