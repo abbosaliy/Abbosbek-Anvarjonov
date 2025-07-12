@@ -89,7 +89,7 @@ function Kontakt() {
           >
             <div className="w-full flex flex-col md:flex-row gap-5 items-center">
               <div className="w-full flex flex-col md:flex-row gap-5 items-center">
-                <label>
+                <label className="w-full">
                   <input
                     type="text"
                     placeholder="Vorname"
@@ -99,7 +99,7 @@ function Kontakt() {
                   />
                 </label>
 
-                <label>
+                <label className="w-full">
                   <input
                     type="text"
                     name="user_name"
@@ -112,7 +112,7 @@ function Kontakt() {
             </div>
 
             <div className="w-full flex flex-col md:flex-row gap-5 items-center">
-              <label>
+              <label className="w-full">
                 <input
                   type="text"
                   name="user_email"
@@ -122,7 +122,7 @@ function Kontakt() {
                 />
               </label>
 
-              <label>
+              <label className="w-full">
                 <input
                   type="text"
                   name="user_number"
