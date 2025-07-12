@@ -145,7 +145,7 @@ function Kontakt() {
             </div>
             <button
               type="submit"
-              className="max-w-[200px] py-2 px-8 bg-slate-950 border-blue-500 border-2  cursor-pointer rounded-full  hover:bg-blue-500 hover:text-slate-950 transition-all duration-300 font-medium"
+              className="max-w-[200px] py-2 px-8 border-blue-500 border-2  cursor-pointer rounded-full  hover:bg-blue-500 hover:text-slate-950 transition-all duration-300 font-medium"
             >
               Senden
             </button>

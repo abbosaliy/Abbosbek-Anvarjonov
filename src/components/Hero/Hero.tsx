@@ -4,9 +4,12 @@ import SocialLinks from '../UI/SocialLinks';
 
 function Hero() {
   return (
-    <div className="container flex  flex-col">
-      <div className="flex flex-col  gap-15 items-center xl:flex-row xl:justify-between xl:items-start xl:pb-40 pt-15">
-        <Photo />
+    <div className="container flex items-center flex-col">
+      <div className="flex flex-col gap-20  items-center pt-20 xl:items-start xl:flex-row   xl:pb-40  ">
+        <div className="xl:order-2">
+          <Photo />
+        </div>
+
         <div className="flex  text-center items-center xl:items-start xl:text-left flex-col">
           <h2 className="text-xl xl:text-2xl">
             Hi, ich bin <span className="font-bold">Abbosbek</span>

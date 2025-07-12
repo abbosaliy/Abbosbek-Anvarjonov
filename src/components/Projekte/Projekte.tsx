@@ -67,7 +67,7 @@ function ProjekteCard() {
             />
             <div className="flex flex-col gap-5">
               <h2 className="text-4xl font-semibold">Moderne Wetter App</h2>
-              <a href="https://abbosaliy.github.io/Restaruant-Caravan/"></a>
+              <a href=""></a>
               <p className="text-slate-400 font-mono text-lg">
                 Meine moderne Wetter App zeigt aktuelle Wetterdaten für Städte
                 auf der ganzen Welt an. Die App wurde "mobile-first" entwickelt
@@ -80,7 +80,10 @@ function ProjekteCard() {
               </h2>
               <div className="flex items-center gap-5">
                 <div className="relative group">
-                  <a target="_blank">
+                  <a
+                    target="_blank"
+                    href="https://github.com/abbosaliy/Wetter-App.git"
+                  >
                     <FaGithub className="w-15 h-15  p-4 bg-slate-800 rounded-full hover:text-blue-500" />
                   </a>
                   <div className="absolute -top-12 left-1/2 -translate-x-1/2 text-lg  text-black bg-white px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
@@ -89,7 +92,10 @@ function ProjekteCard() {
                 </div>
 
                 <div className="relative group">
-                  <a target="_blank">
+                  <a
+                    target="_blank"
+                    href="https://abbosaliy.github.io/Wetter-App/"
+                  >
                     <GoArrowUpRight className="w-15 h-15 p-2 bg-slate-800 rounded-full hover:text-blue-500" />
                   </a>
 
