@@ -8,7 +8,7 @@ function Photo() {
         {/*image*/}
         <motion.div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <img
-            src="/Abbosbek-Anvarjonov/abbos.png"
+            src="/Abbosbek-Anvarjonov/person.png"
             alt=""
             className="object-contain  w-full h-full rounded-full"
           />

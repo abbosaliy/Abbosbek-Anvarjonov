@@ -1,15 +1,17 @@
 function Ausbildung() {
   return (
     <div className="flex flex-col gap-10 pb-10">
-      <div className="flex flex-col items-center xl:items-start text-center gap-8 ">
+      <div className="flex flex-col items-center xl:items-start text-center gap-4 ">
         <h1 className="font-semibold text-4xl  ">Meine Ausbildung</h1>
         <p className="text-slate-400 font-mono text-xl xl:text-start  ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-          quidem accusantium et, sit neque vitae sunt tempora est? Illum, enim
-          inventore. Tempora deserunt perspiciatis harum error molestias
-          repellendus aut fuga? Ut asperiores sit animi nobis hic tempore nemo
-          aliquam perspiciatis delectus deleniti temporibus excepturi adipisci,
-          est ipsa totam repudiandae corrupti recusandae molestias odit itaque
+          Mein Bildungsweg vereint juristische, logistische und digitale
+          Kompetenzen. Nach dem Berufskolleg im Bereich Rechtswesen absolvierte
+          ich eine Ausbildung zum Berufskraftfahrer. Im Anschluss daran
+          entschied ich mich für eine Weiterbildung zum Front-End Webentwickler,
+          um aktiv an der digitalen Welt mitwirken zu können. Diese vielseitige
+          Kombination aus rechtlichem Verständnis, praktischer Erfahrung und
+          technologischem Know-how ermöglicht es mir, Webprojekte strukturiert,
+          lösungsorientiert und nutzerfreundlich umzusetzen.
         </p>
       </div>
       <div className="max-h-[500px] grid grid-cols-4 gap-4  overscroll-contain overflow-y-auto ">

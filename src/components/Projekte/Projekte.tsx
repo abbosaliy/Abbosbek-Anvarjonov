@@ -122,7 +122,7 @@ function ProjekteCard() {
                 Benutzerfreundlichkeit, Klarheit und zeitgemäßem Webdesign.
               </p>
               <h2 className="text-blue-500 text-lg font-bold border-b-3 border-b-white/30">
-                React TypeScript Tailwindcss Vite
+                React TypeScript TailwindCSS Vite
               </h2>
               <div className="flex items-center gap-5">
                 <div className="relative group">

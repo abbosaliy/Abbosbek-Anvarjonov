@@ -14,15 +14,17 @@ import { SiMui, SiShadcnui, SiTailwindcss, SiVite } from 'react-icons/si';
 function Fähigkeiten() {
   return (
     <div className="flex flex-col  min-h-[70vh] gap-6">
-      <div className="flex flex-col items-center xl:items-start text-center gap-8 ">
+      <div className="flex flex-col items-center xl:items-start text-center gap-4 ">
         <h1 className="font-semibold text-4xl ">Meine Fähigkeiten</h1>
         <p className="text-slate-400 font-mono text-xl xl:text-start  ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-          quidem accusantium et, sit neque vitae sunt tempora est? Illum, enim
-          inventore. Tempora deserunt perspiciatis harum error molestias
-          repellendus aut fuga? Ut asperiores sit animi nobis hic tempore nemo
-          aliquam perspiciatis delectus deleniti temporibus excepturi adipisci,
-          est ipsa totam repudiandae corrupti recusandae molestias odit itaque
+          Ich verfüge über eine fundierte Grundlage in der Front-End-Entwicklung
+          und spezialisiere mich auf die Umsetzung moderner, responsiver und
+          benutzerfreundlicher Weboberflächen. Im Rahmen meiner Weiterbildung
+          habe ich umfassende Kenntnisse in verschiedenen Front-End-Technologien
+          erworben, mit denen ich performante und wartbare Webanwendungen
+          entwickle. Dabei lege ich besonderen Wert auf sauberen Code, klare
+          Struktur und eine positive Nutzererfahrung. <br></br>Technologien, mit
+          denen ich arbeite:
         </p>
       </div>
 
@@ -59,7 +61,7 @@ function Fähigkeiten() {
         </div>
         <div className="relative group flex items-center justify-center rounded-md hover:text-blue-500 duration-300 bg-slate-800 col-span-1 h-40">
           <div className="absolute bottom-full  mb-2 text-black text-xl px-6 py-2 bg-white rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            TailwindCss
+            TailwindCSS
           </div>
           <SiTailwindcss className="w-20 h-20"></SiTailwindcss>
         </div>

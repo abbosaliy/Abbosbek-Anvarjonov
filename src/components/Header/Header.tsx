@@ -16,9 +16,9 @@ function Header() {
             onClick={() => setMenuOpen(true)}
             className="xl:hidden flex flex-col gap-2 hover:cursor-pointer"
           >
-            <span className="w-8 h-0.5 bg-sky-500"></span>
-            <span className="w-5 h-0.5 bg-sky-500"></span>{' '}
-            <span className="w-8 h-0.5 bg-sky-500"></span>
+            <span className="w-8 h-0.5 bg-blue-500"></span>
+            <span className="w-5 h-0.5 bg-blue-500"></span>{' '}
+            <span className="w-8 h-0.5 bg-blue-500"></span>
           </button>
           <MobileMenu
             isOpen={menuOpen}
