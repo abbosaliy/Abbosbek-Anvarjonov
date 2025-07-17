@@ -105,7 +105,6 @@ function ProjekteCard() {
               </div>
             </div>
           </div>
-
           <div className=" flex flex-col items-start gap-5">
             <img
               className="w-full"
@@ -152,12 +151,11 @@ function ProjekteCard() {
               </div>
             </div>
           </div>
-
           <div className=" flex flex-col items-start gap-5">
             <img
               className="w-full"
               src="/Abbosbek-Anvarjonov/witzeApp.png"
-              alt="reastaruant"
+              alt="witzeApp"
             />
             <div className="flex flex-col gap-5">
               <h2 className="text-4xl font-semibold">Lustige Witze App</h2>
@@ -203,7 +201,7 @@ function ProjekteCard() {
             <img
               className="w-full "
               src="/Abbosbek-Anvarjonov/nutzerverwaltung.png"
-              alt="reastaruant"
+              alt="nutzerverwaltung"
             />
             <div className="flex flex-col gap-5">
               <h2 className="text-4xl font-semibold">Nutzerverwaltung</h2>
@@ -249,7 +247,7 @@ function ProjekteCard() {
             <img
               className="w-full "
               src="/Abbosbek-Anvarjonov/notizApp.png"
-              alt="reastaruant"
+              alt="notizApp"
             />
             <div className="flex flex-col gap-5">
               <h2 className="text-4xl font-semibold">Notiz App </h2>
@@ -259,7 +257,7 @@ function ProjekteCard() {
                 Benutzerführung und zuverlässiger Datenspeicherung ohne Backend.
               </p>
               <h2 className="text-blue-500 text-lg font-bold border-b-3 border-b-white/30">
-                TypeScript SCSS React
+                HTML CSS JavaScript LocalStorage
               </h2>
               <div className="flex items-center gap-5">
                 <div className="relative group">
