@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './components/Home/Home';
-import Datenschutz from './components/Footer/Datenschutz';
-import Impressum from './components/Footer/Impressum';
+import Imprint from './components/Footer/Imprint';
+import PrivacyPolicy from './components/Footer/PrivacyPolicy';
 
 function App() {
   const router = createBrowserRouter(
@@ -11,12 +11,12 @@ function App() {
         element: <Home />,
       },
       {
-        path: 'impressum',
-        element: <Impressum />,
+        path: 'imprint',
+        element: <Imprint />,
       },
       {
-        path: 'datenschutz',
-        element: <Datenschutz />,
+        path: 'privacy-policy',
+        element: <PrivacyPolicy />,
       },
     ],
     {

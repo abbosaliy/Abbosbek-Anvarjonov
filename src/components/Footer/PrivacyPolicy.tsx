@@ -2,7 +2,7 @@ import { GoArrowLeft } from 'react-icons/go';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
 
-function Datenschutz() {
+function PrivacyPolicy() {
   return (
     <>
       <div className="min-h-[100vh]  relative  mx-auto p-10  ">
@@ -229,4 +229,4 @@ function Datenschutz() {
   );
 }
 
-export default Datenschutz;
+export default PrivacyPolicy;

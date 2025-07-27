@@ -2,9 +2,9 @@ import { Outlet } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Hero from '../Hero/Hero';
-import Kontakt from '../Kontakt/Kontakt';
-import Lebenslauf from '../Lebenslauf/lebenslauf';
-import ProjekteCard from '../Projekte/Projekte';
+import ProjekteCard from '../Projects/Projects';
+import Contact from '../Contact/Contact';
+import Resume from '../Resume/Resume';
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
         </section>
 
         <section id="lebenslauf">
-          <Lebenslauf />
+          <Resume />
         </section>
 
         <section id="projekte">
@@ -27,7 +27,7 @@ export default function Home() {
         </section>
 
         <section id="kontakt">
-          <Kontakt />
+          <Contact />
         </section>
         <Outlet />
       </main>

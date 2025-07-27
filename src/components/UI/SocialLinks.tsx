@@ -14,12 +14,14 @@ function SocialLinks() {
         </a>
         <a
           href="http://linkedin.com/in/abbosbek-anvarjonov-b3867a294"
+          target="_blank"
           className="w-12 h-12  xl:w-15 xl:h-15 border border-blue-500 rounded-full  flex items-center justify-center  hover:bg-blue-500 text-base  text-blue-500 hover:text-black transition-all duration-300"
         >
           <FaLinkedinIn className="w-6 h-6" />
         </a>
         <a
           href="mailto:abbosbekanvarjonov8@gmail.com"
+          target="_blank"
           className="w-12 h-12 xl:w-15 xl:h-15 border border-blue-500 rounded-full  flex items-center justify-center  hover:bg-blue-500 text-base   text-blue-500 hover:text-black transition-all duration-300"
         >
           <HiMail className="w-6 h-6" />

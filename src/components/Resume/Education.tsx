@@ -1,4 +1,4 @@
-function Ausbildung() {
+function Education() {
   return (
     <div className="flex flex-col gap-10 pb-10">
       <div className="flex flex-col items-center xl:items-start text-center gap-4 ">
@@ -116,4 +116,4 @@ function Ausbildung() {
   );
 }
 
-export default Ausbildung;
+export default Education;

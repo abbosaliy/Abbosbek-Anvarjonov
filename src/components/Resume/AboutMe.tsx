@@ -1,4 +1,4 @@
-function UberMich() {
+function AboutMe() {
   return (
     <div className="flex flex-col  min-h-[70vh] w-full gap-20">
       <div className="flex flex-col items-center xl:items-start text-center gap-4 ">
@@ -40,4 +40,4 @@ function UberMich() {
   );
 }
 
-export default UberMich;
+export default AboutMe;

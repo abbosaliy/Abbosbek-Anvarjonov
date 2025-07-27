@@ -2,7 +2,7 @@ import { GoArrowLeft } from 'react-icons/go';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
 
-function Impressum() {
+function Imprint() {
   return (
     <>
       <div className="min-h-[100vh]  relative  mx-auto p-10  ">
@@ -41,4 +41,4 @@ function Impressum() {
   );
 }
 
-export default Impressum;
+export default Imprint;

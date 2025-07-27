@@ -1,7 +1,7 @@
 import { FaGithub } from 'react-icons/fa';
 import { GoArrowUpRight } from 'react-icons/go';
 
-function ProjekteCard() {
+function Projects() {
   return (
     <div className="container">
       <div className="flex flex-col gap-10 pt-10">
@@ -15,7 +15,7 @@ function ProjekteCard() {
         <div className=" grid md:grid-cols-2  lg:grid-cols-3 gap-10 h-auto">
           <div className=" flex flex-col items-start gap-5">
             <img
-              className="w-full"
+              className="w-full h-full object-center  rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
               src="/Abbosbek-Anvarjonov/weatherApp.png"
               alt="projek-2"
             />
@@ -61,7 +61,7 @@ function ProjekteCard() {
           </div>
           <div className=" flex flex-col items-start gap-5">
             <img
-              className="w-full"
+              className="w-full h-full object-cover  rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
               src="/Abbosbek-Anvarjonov/caravanRestaurant.png"
               alt="projekt-1"
             />
@@ -107,7 +107,7 @@ function ProjekteCard() {
           </div>
           <div className=" flex flex-col items-start gap-5">
             <img
-              className="w-full"
+              className="w-full h-full object-cover  rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
               src="/Abbosbek-Anvarjonov/portfolio.png"
               alt="projekt-3"
             />
@@ -153,7 +153,7 @@ function ProjekteCard() {
           </div>
           <div className=" flex flex-col items-start gap-5">
             <img
-              className="w-full"
+              className="w-full  h-[250px] rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
               src="/Abbosbek-Anvarjonov/witzeApp.png"
               alt="witzeApp"
             />
@@ -199,8 +199,8 @@ function ProjekteCard() {
           </div>
           <div className=" flex flex-col items-start gap-5">
             <img
-              className="w-full "
-              src="/Abbosbek-Anvarjonov/nutzerverwaltung.png"
+              className="w-full  h-[250px] rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
+              src="/Abbosbek-Anvarjonov/nutzer.png"
               alt="nutzerverwaltung"
             />
             <div className="flex flex-col gap-5">
@@ -245,7 +245,7 @@ function ProjekteCard() {
           </div>
           <div className=" flex flex-col items-start gap-5">
             <img
-              className="w-full "
+              className="w-full  h-[250px] rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
               src="/Abbosbek-Anvarjonov/notizApp.png"
               alt="notizApp"
             />
@@ -293,4 +293,4 @@ function ProjekteCard() {
   );
 }
 
-export default ProjekteCard;
+export default Projects;

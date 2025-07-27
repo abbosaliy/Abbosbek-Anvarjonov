@@ -4,7 +4,7 @@ import { FaMapLocation } from 'react-icons/fa6';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-function Kontakt() {
+function Contact() {
   const form = useRef<HTMLFormElement | null>(null);
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
@@ -156,4 +156,4 @@ function Kontakt() {
   );
 }
 
-export default Kontakt;
+export default Contact;

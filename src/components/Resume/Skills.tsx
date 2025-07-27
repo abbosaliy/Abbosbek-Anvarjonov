@@ -11,7 +11,7 @@ import {
 import { IoLogoJavascript } from 'react-icons/io';
 import { SiMui, SiShadcnui, SiTailwindcss, SiVite } from 'react-icons/si';
 
-function Fähigkeiten() {
+function Skills() {
   return (
     <div className="flex flex-col  min-h-[70vh] gap-6">
       <div className="flex flex-col items-center xl:items-start text-center gap-4 ">
@@ -112,4 +112,4 @@ function Fähigkeiten() {
   );
 }
 
-export default Fähigkeiten;
+export default Skills;
