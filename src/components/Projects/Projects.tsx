@@ -153,7 +153,7 @@ function Projects() {
           </div>
           <div className=" flex flex-col items-start gap-5">
             <img
-              className="w-full  h-[250px] rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
+              className="w-full  h-[250px]  object-cover rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
               src="/Abbosbek-Anvarjonov/witzeApp.png"
               alt="witzeApp"
             />
@@ -199,7 +199,7 @@ function Projects() {
           </div>
           <div className=" flex flex-col items-start gap-5">
             <img
-              className="w-full  h-[250px] rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
+              className="w-full  h-[250px] object-cover rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
               src="/Abbosbek-Anvarjonov/nutzer.png"
               alt="nutzerverwaltung"
             />
@@ -245,7 +245,7 @@ function Projects() {
           </div>
           <div className=" flex flex-col items-start gap-5">
             <img
-              className="w-full  h-[250px] rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
+              className="w-full  h-[250px] object-cover rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
               src="/Abbosbek-Anvarjonov/notizApp.png"
               alt="notizApp"
             />
