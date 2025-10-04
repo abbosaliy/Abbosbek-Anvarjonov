@@ -6,7 +6,7 @@ function AboutMe() {
         <p className="text-slate-400 font-mono text-xl xl:text-start ">
           Engagierter Quereinsteiger mit intensiver Weiterbildung in moderner
           Webentwicklung über DevKarriere. Im Rahmen des Programms habe ich über
-          zehn praxisnahe Projekte u.a mit JavaScript, React, TailwindCSS und
+          zehn praxisnahe Projekte. u.a mit JavaScript, React, TailwindCSS und
           TypeScript eigenständig umgesetzt. Ich bringe eine hohe
           Eigenmotivation mit, neue Technologien zu lernen und Herausforderungen
           strukturiert zu lösen. Mein beruflicher Hintergrund außerhalb der IT
@@ -22,7 +22,7 @@ function AboutMe() {
           </li>
           <li className="flex items-center justify-center xl:justify-start gap-4">
             <span className="text-slate-400 text-lg">Telefon</span>
-            <span className="text-xl">(+49)1734759122</span>
+            <span className="text-xl">(+49) 173 475 91 22</span>
           </li>
           <li className="flex items-center justify-center xl:justify-start gap-4">
             <span className="text-slate-400 text-lg">Email</span>

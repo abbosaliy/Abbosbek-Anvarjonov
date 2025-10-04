@@ -23,8 +23,8 @@ function Projects() {
               <h2 className="text-4xl font-semibold">Moderne Wetter App</h2>
               <p className="text-slate-400 font-mono text-lg">
                 Meine moderne Wetter App zeigt aktuelle Wetterdaten für Städte
-                auf der ganzen Welt an. Die App wurde "mobile-first" entwickelt
-                und für Mobilgeräte aller Art optimiert. Der Nutzer hat die
+                der ganzen Welt an. Die App wurde "mobile-first" entwickelt und
+                für Mobilgeräte aller Art optimiert. Der Nutzer haben die
                 Möglichkeit, Orte in einer Favoritenliste zu speichern und diese
                 Liste zu bearbeiten.
               </p>
@@ -158,7 +158,7 @@ function Projects() {
               alt="witzeApp"
             />
             <div className="flex flex-col gap-5">
-              <h2 className="text-4xl font-semibold">Lustige Witze App</h2>
+              <h2 className="text-4xl font-semibold">Witze App</h2>
               <p className="text-slate-400 font-mono text-lg">
                 Diese humorvolle Witze-App wurde mit Fokus auf modernes Design
                 und Benutzerfreundlichkeit entwickelt. Sie ist vollständig

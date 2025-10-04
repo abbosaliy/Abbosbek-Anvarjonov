@@ -23,9 +23,10 @@ function Hero() {
           </h1>
           <p className="max-w-[500px] pt-6 text-lg xl:text-xl pb-8 text-slate-400 font-mono">
             Ich bin ein leidenschaftlicher Frontend-Entwickler mit Fokus auf
-            moderne Webtechnologien wie React, TypeScript, Tailwind CSS und
-            responsive Design. Ich entwickle benutzerfreundliche, performante
-            und visuell ansprechende Webanwendungen. Mein Ziel ist es, intuitive
+            moderne Webtechnologien wie React, TypeScript, Tailwind CSS.
+            <br />
+            Ich entwickle benutzerfreundliche, performante und visuell
+            ansprechende Webanwendungen. Mein Ziel ist es, intuitive
             Benutzeroberflächen zu gestalten und stetig neue Technologien zu
             erlernen.
           </p>
