@@ -16,7 +16,7 @@ function Projects() {
           <div className=" flex flex-col items-start gap-5">
             <img
               className="w-full h-full object-center  rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
-              src="/Abbosbek-Anvarjonov/weatherApp.png"
+              src="/images/weatherApp.png"
               alt="projek-2"
             />
             <div className="flex flex-col gap-5">
@@ -62,7 +62,7 @@ function Projects() {
           <div className=" flex flex-col items-start gap-5">
             <img
               className="w-full h-full object-cover  rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
-              src="/Abbosbek-Anvarjonov/caravanRestaurant.png"
+              src="/images/caravanRestaurant.png"
               alt="projekt-1"
             />
             <div className="flex flex-col gap-5">
@@ -108,7 +108,7 @@ function Projects() {
           <div className=" flex flex-col items-start gap-5">
             <img
               className="w-full h-full object-cover  rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
-              src="/Abbosbek-Anvarjonov/portfolio.png"
+              src="/images/portfolio.png"
               alt="projekt-3"
             />
             <div className="flex flex-col gap-5">
@@ -154,7 +154,7 @@ function Projects() {
           <div className=" flex flex-col items-start gap-5">
             <img
               className="w-full  h-[250px]  object-cover rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
-              src="/Abbosbek-Anvarjonov/witzeApp.png"
+              src="/images/witzeApp.png"
               alt="witzeApp"
             />
             <div className="flex flex-col gap-5">
@@ -200,7 +200,7 @@ function Projects() {
           <div className=" flex flex-col items-start gap-5">
             <img
               className="w-full  h-[250px] object-cover rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
-              src="/Abbosbek-Anvarjonov/nutzer.png"
+              src="/images/nutzer.png"
               alt="nutzerverwaltung"
             />
             <div className="flex flex-col gap-5">
@@ -246,7 +246,7 @@ function Projects() {
           <div className=" flex flex-col items-start gap-5">
             <img
               className="w-full  h-[250px] object-cover rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
-              src="/Abbosbek-Anvarjonov/notizApp.png"
+              src="/images/notizApp.png"
               alt="notizApp"
             />
             <div className="flex flex-col gap-5">
