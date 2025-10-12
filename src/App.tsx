@@ -1,29 +1,27 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Imprint from './components/Footer/Imprint';
 import PrivacyPolicy from './components/Footer/PrivacyPolicy';
 
 function App() {
-  const router = createBrowserRouter(
-    [
-      {
-        path: '/',
-        element: <Home />,
-      },
-      {
-        path: 'imprint',
-        element: <Imprint />,
-      },
-      {
-        path: 'privacy-policy',
-        element: <PrivacyPolicy />,
-      },
-    ],
-    {
-      basename: '/Abbosbek-Anvarjonov',
-    }
+  return (
+    <HashRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={<Home />}
+        />
+        <Route
+          path="/imprint"
+          element={<Imprint />}
+        />
+        <Route
+          path="/privacy-policy"
+          element={<PrivacyPolicy />}
+        />
+      </Routes>
+    </HashRouter>
   );
-  return <RouterProvider router={router}></RouterProvider>;
 }
 
 export default App;
