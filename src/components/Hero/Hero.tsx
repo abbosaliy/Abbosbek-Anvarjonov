@@ -1,6 +1,7 @@
 import { GoArrowDown } from 'react-icons/go';
 import Photo from '../Hero/Photo/Photo';
 import SocialLinks from '../UI/SocialLinks';
+import { HashLink } from 'react-router-hash-link';
 
 function Hero() {
   return (
@@ -31,13 +32,13 @@ function Hero() {
             erlernen.
           </p>
           <div className="flex flex-col  items-center gap-10 xl:flex-row">
-            <a
-              href="#projekte"
+            <HashLink
+              to="#projekte"
               className=" flex items-center font-bold  justify-center  gap-2 rounded-full border-2 px-15 py-3 xl:px-20   text-lg    border-blue-500 hover:bg-blue-500 hover:text-slate-950 transition-all whitespace-nowrap duration-300"
             >
               Projekte Ansehen
               <GoArrowDown className="text-xl  font-bold" />
-            </a>
+            </HashLink>
             <SocialLinks />
           </div>
         </div>
