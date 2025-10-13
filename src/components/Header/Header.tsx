@@ -6,7 +6,7 @@ function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="container ">
-      <header className="py-8 xl:py-12 text-white">
+      <header className="py-8 xl:py-12 text-white ">
         <div className="flex  items-center justify-between">
           <h1 className="font-semibold text-4xl ">
             Abbosbek<span className="text-blue-500">.</span>

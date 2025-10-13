@@ -5,7 +5,7 @@ import Footer from './Footer';
 function Imprint() {
   return (
     <div className="flex  flex-col min-h-screen">
-      <div className="  p-10  ">
+      <div className="  p-5  ">
         <Link
           to={'/'}
           className="flex items-center gap-2 text-lg font-light hover:text-blue-500"
@@ -14,7 +14,7 @@ function Imprint() {
           Zurück
         </Link>
       </div>
-      <div className="flex flex-grow gap-10 p-10 justify-center-safe items-center min-h-[70vh]">
+      <div className="flex flex-grow gap-10 p-5 justify-center-safe items-center min-h-[70vh]">
         <div className="flex flex-col gap-10 text-left max-w-xl w-full">
           <h1 className="text-3xl font-extrabold text-white/50">
             Angaben gemäß § 5 TMG

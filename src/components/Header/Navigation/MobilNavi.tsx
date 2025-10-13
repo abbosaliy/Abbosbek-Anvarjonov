@@ -1,4 +1,5 @@
 import { HiOutlineX } from 'react-icons/hi';
+import { HashLink } from 'react-router-hash-link';
 
 interface MobileMenuProps {
   isOpen: boolean;
@@ -25,41 +26,41 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           Abbosbek <span className="text-blue-500">.</span>
         </h1>
         <ul className="flex flex-col items-center gap-10">
-          <a
-            href="#hero"
+          <HashLink
+            to="#hero"
             onClick={onClose}
             className="relative group text-xl duration-300 cursor-pointer"
           >
             <span className="group-hover:text-blue-500">StartSeite</span>
             <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
-          </a>
+          </HashLink>
 
-          <a
+          <HashLink
+            to="lebenslauf"
             className="relative group text-xl duration-300 cursor-pointer"
-            href="#lebenslauf"
             onClick={onClose}
           >
             <span className="group-hover:text-blue-500">Lebenslauf</span>
             <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
-          </a>
+          </HashLink>
 
-          <a
+          <HashLink
+            to="#projekte"
             className="relative group text-xl duration-300 cursor-pointer"
-            href="#projekte"
             onClick={onClose}
           >
             <span className="group-hover:text-blue-500"> Projekte</span>
             <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
-          </a>
+          </HashLink>
 
-          <a
+          <HashLink
+            to="#kontakt"
             className="relative group text-xl duration-300 cursor-pointer"
-            href="#kontakt"
             onClick={onClose}
           >
             <span className="group-hover:text-blue-500"> Kontakt</span>
             <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
-          </a>
+          </HashLink>
         </ul>
       </div>
     </div>

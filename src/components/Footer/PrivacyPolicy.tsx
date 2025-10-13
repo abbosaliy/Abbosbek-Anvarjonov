@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 function PrivacyPolicy() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <div className="p-10">
+    <div className="flex flex-col min-h-screen ">
+      <div className="p-5">
         <Link
           to={'/'}
           className="flex items-center gap-2 text-lg font-light hover:text-blue-500"
@@ -14,7 +14,7 @@ function PrivacyPolicy() {
           Zurück
         </Link>
       </div>
-      <div className="flex  flex-grow items-center  justify-center text-center ">
+      <div className="p-5 flex flex-grow items-center  justify-center text-center ">
         <div className="flex flex-col gap-10 text-left max-w-4xl w-full">
           <h1 className="text-3xl font-extrabold mb-4 text-blue-500">
             Datenschutzerklärung
