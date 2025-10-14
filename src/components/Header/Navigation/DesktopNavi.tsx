@@ -5,7 +5,7 @@ function DesktopNavi() {
     <div className="hidden xl:block">
       <ul className="flex  items-center gap-15">
         <HashLink
-          to="/#hero"
+          to={`${import.meta.env.BASE_URL}#hero`}
           className="relative group text-xl cursor-pointer"
         >
           <span className="group-hover:text-blue-500 duration-300">
