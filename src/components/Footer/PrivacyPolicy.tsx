@@ -14,12 +14,12 @@ function PrivacyPolicy() {
           Zurück
         </Link>
       </div>
-      <div className="p-5 flex flex-grow items-center  justify-center text-center ">
-        <div className="flex flex-col gap-10 text-left max-w-4xl w-full">
+      <div className="p-5 flex flex-grow items-center  justify-center text-center  ">
+        <div className="flex flex-col text-left max-w-5xl ">
           <h1 className="text-3xl font-extrabold mb-4 text-blue-500">
             Datenschutzerklärung
           </h1>
-          <div className="flex flex-col gap-3 max-h-[600px] overflow-y-auto ">
+          <div className="flex flex-col gap-3 overflow-y-auto  max-h-[65vh]">
             <p className="text-white/50 text-lg  leading-relaxed">
               Datenschutz­erklärung 1. Datenschutz auf einen Blick Allgemeine
               Hinweise Die folgenden Hinweise geben einen einfachen Überblick

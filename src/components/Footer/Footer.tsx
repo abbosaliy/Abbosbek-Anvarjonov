@@ -6,13 +6,13 @@ function Footer() {
       <div className="mx-auto text-center space-x-8">
         <Link
           to={'/imprint'}
-          className="text-white/50 text-lg "
+          className="text-white/50 text-lg  hover:text-blue-500"
         >
           Impressum
         </Link>
         <Link
           to={'/privacy-policy'}
-          className="text-white/50 text-lg "
+          className="text-white/50 text-lg hover:text-blue-500 "
         >
           Datenschutz
         </Link>
