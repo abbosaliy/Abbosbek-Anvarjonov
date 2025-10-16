@@ -66,7 +66,7 @@ function Education() {
         <div className="h-[184px] col-span-4 lg:col-span-2 lg:items-start flex flex-col items-center  rounded-md bg-slate-800 p-6  gap-2">
           <p className="text-xl text-blue-500 font-bold">2021-2024</p>
           <h2 className="text-xl font-mono text-white">
-            Qualifizierte <br /> Berufskraftfahrer
+            Qualifizierter <br /> Berufskraftfahrer
           </h2>
 
           <h2 className="flex items-center gap-2 text-slate-400 text-xl ">
