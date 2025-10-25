@@ -12,10 +12,57 @@ function Projects() {
             meiner Fähigkeiten und Erfahrungen machen können.
           </p>
         </div>
-        <div className=" grid md:grid-cols-2  lg:grid-cols-3 gap-10 h-auto">
-          <div className=" flex flex-col items-start gap-5">
+        <div className=" grid md:grid-cols-2  lg:grid-cols-3 gap-10 items-stretch">
+          <div className=" flex flex-col items-start gap-5 h-full">
             <img
-              className="w-full h-full object-center  rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
+              className="w-full aspect-video  object-center rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
+              src="/images/cargoSync.png"
+              alt="projek-2"
+            />
+            <div className="flex flex-col gap-5 h-full">
+              <h2 className="text-4xl font-semibold">CargoSync</h2>
+              <p className="text-slate-400 font-mono text-lg">
+                CargoSync ist eine moderne Logistikplattform, die Fahrern und
+                Disponenten hilft, Lieferungen effizient zu verwalten. Die
+                Anwendung wurde im „mobile-first“-Ansatz entwickelt und für alle
+                Gerätetypen optimiert. Benutzer können Aufträge in Echtzeit
+                verfolgen, den Status ihrer Lieferungen aktualisieren und
+                tägliche Routen übersichtlich organisieren – alles an einem Ort.
+              </p>
+              <h2 className="text-blue-500 text-lg font-bold border-b-3 border-b-white/30">
+                HTML Vite TypeScript React TailwindCSS Supabase
+              </h2>
+              <div className="flex items-center gap-5">
+                <div className="relative group">
+                  <a
+                    target="_blank"
+                    href="https://github.com/abbosaliy/Wetter-App.git"
+                  >
+                    <FaGithub className="w-15 h-15  p-4 bg-slate-800 rounded-full hover:text-blue-500" />
+                  </a>
+                  <div className="absolute -top-12 left-1/2 -translate-x-1/2 text-lg  text-black bg-white px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
+                    GitHub
+                  </div>
+                </div>
+
+                <div className="relative group">
+                  <a
+                    target="_blank"
+                    href="https://cargosync.abbosbek-anvarjonov.com"
+                  >
+                    <GoArrowUpRight className="w-15 h-15 p-2 bg-slate-800 rounded-full hover:text-blue-500" />
+                  </a>
+
+                  <div className="absolute -top-12 left-1/2 -translate-x-1/2 text-lg text-black bg-white px-6 py-2 rounded opacity-0 whitespace-nowrap  group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
+                    Live project
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className=" flex flex-col items-start gap-5 h-full">
+            <img
+              className="w-full aspect-video object-center  rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
               src="/images/weatherApp.png"
               alt="projek-2"
             />
@@ -59,9 +106,9 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div className=" flex flex-col items-start gap-5">
+          <div className=" flex flex-col items-start gap-5 h-full">
             <img
-              className="w-full h-full object-cover  rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
+              className="w-full aspect-video object-cover  rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
               src="/images/caravanRestaurant.png"
               alt="projekt-1"
             />
@@ -105,9 +152,9 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div className=" flex flex-col items-start gap-5">
+          <div className=" flex flex-col items-start gap-5 h-full">
             <img
-              className="w-full h-full object-cover  rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
+              className="w-full aspect-video object-center  rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
               src="/images/portfolio.png"
               alt="projekt-3"
             />
@@ -139,7 +186,7 @@ function Projects() {
                 <div className="relative group">
                   <a
                     target="_blank"
-                    href="https://abbosaliy.github.io/Abbosbek-Anvarjonov/"
+                    href="https://abbosbek-anvarjonov.com"
                   >
                     <GoArrowUpRight className="w-15 h-15 p-2 bg-slate-800 rounded-full hover:text-blue-500" />
                   </a>
@@ -151,9 +198,9 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div className=" flex flex-col items-start gap-5">
+          <div className=" flex flex-col items-start gap-5 h-full">
             <img
-              className="w-full  h-[250px]  object-cover rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
+              className="w-full aspect-video  object-center rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
               src="/images/witzeApp.png"
               alt="witzeApp"
             />
@@ -197,9 +244,9 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div className=" flex flex-col items-start gap-5">
+          <div className=" flex flex-col items-start gap-5 h-full">
             <img
-              className="w-full  h-[250px] object-cover rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
+              className="w-full aspect-video object-center rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
               src="/images/nutzer.png"
               alt="nutzerverwaltung"
             />
@@ -232,50 +279,6 @@ function Projects() {
                   <a
                     target="_blank"
                     href="https://abbosaliy.github.io/Nutzerverwaltung/"
-                  >
-                    <GoArrowUpRight className="w-15 h-15 p-2 bg-slate-800 rounded-full hover:text-blue-500" />
-                  </a>
-
-                  <div className="absolute -top-12 left-1/2 -translate-x-1/2 text-lg text-black bg-white px-6 py-2 rounded opacity-0 whitespace-nowrap  group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
-                    Live project
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" flex flex-col items-start gap-5">
-            <img
-              className="w-full  h-[250px] object-cover rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
-              src="/images/notizApp.png"
-              alt="notizApp"
-            />
-            <div className="flex flex-col gap-5">
-              <h2 className="text-4xl font-semibold">Notiz App </h2>
-              <p className="text-slate-400 font-mono text-lg">
-                Webanwendung zur Erstellung, Bearbeitung und lokalen Speicherung
-                von Notizen im Browser. Der Fokus liegt auf klarer
-                Benutzerführung und zuverlässiger Datenspeicherung ohne Backend.
-              </p>
-              <h2 className="text-blue-500 text-lg font-bold border-b-3 border-b-white/30">
-                HTML CSS JavaScript LocalStorage
-              </h2>
-              <div className="flex items-center gap-5">
-                <div className="relative group">
-                  <a
-                    target="_blank"
-                    href="https://github.com/abbosaliy/Notiz-app.git"
-                  >
-                    <FaGithub className="w-15 h-15  p-4 bg-slate-800 rounded-full hover:text-blue-500" />
-                  </a>
-                  <div className="absolute -top-12 left-1/2 -translate-x-1/2 text-lg  text-black bg-white px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
-                    GitHub
-                  </div>
-                </div>
-
-                <div className="relative group">
-                  <a
-                    target="_blank"
-                    href="https://abbosaliy.github.io/Notiz-app/"
                   >
                     <GoArrowUpRight className="w-15 h-15 p-2 bg-slate-800 rounded-full hover:text-blue-500" />
                   </a>
