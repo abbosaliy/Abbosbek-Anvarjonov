@@ -47,7 +47,7 @@ function Projects() {
                 <div className="relative group">
                   <a
                     target="_blank"
-                    href="https://abbosaliy.github.io/Wetter-App/"
+                    href="https://wetter-app.abbosbek-anvarjonov.com"
                   >
                     <GoArrowUpRight className="w-15 h-15 p-2 bg-slate-800 rounded-full hover:text-blue-500" />
                   </a>
@@ -185,7 +185,7 @@ function Projects() {
                 <div className="relative group">
                   <a
                     target="_blank"
-                    href="https://abbosaliy.github.io/Witze-app/"
+                    href="https://witze-app.abbosbek-anvarjonov.com"
                   >
                     <GoArrowUpRight className="w-15 h-15 p-2 bg-slate-800 rounded-full hover:text-blue-500" />
                   </a>
