@@ -36,7 +36,7 @@ function Projects() {
                 <div className="relative group">
                   <a
                     target="_blank"
-                    href="https://github.com/abbosaliy/Wetter-App.git"
+                    href="https://github.com/abbosaliy/Logistik-App.git"
                   >
                     <FaGithub className="w-15 h-15  p-4 bg-slate-800 rounded-full hover:text-blue-500" />
                   </a>
