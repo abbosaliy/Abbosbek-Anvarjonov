@@ -36,7 +36,7 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           </HashLink>
 
           <HashLink
-            to="lebenslauf"
+            to="#lebenslauf"
             className="relative group text-xl duration-300 cursor-pointer"
             onClick={onClose}
           >
