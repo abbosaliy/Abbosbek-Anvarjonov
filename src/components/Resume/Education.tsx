@@ -16,7 +16,7 @@ function Education() {
       </div>
       <div className="max-h-[500px] grid grid-cols-4 gap-4  overscroll-contain overflow-y-auto ">
         <div className="h-[184px] col-span-4 lg:col-span-2 lg:items-start flex flex-col items-center  rounded-md bg-slate-800 p-6 gap-2">
-          <p className="text-xl text-blue-500 font-bold">2025 - bis jetzt</p>
+          <p className="text-xl text-blue-500 font-bold">2025 - 2025</p>
           <h2 className="text-xl font-mono text-white">
             Front-End Web Development
           </h2>
@@ -64,7 +64,7 @@ function Education() {
           </h2>
         </div>
         <div className="h-[184px] col-span-4 lg:col-span-2 lg:items-start flex flex-col items-center  rounded-md bg-slate-800 p-6  gap-2">
-          <p className="text-xl text-blue-500 font-bold">2021-2024</p>
+          <p className="text-xl text-blue-500 font-bold">2021 - 2024</p>
           <h2 className="text-xl font-mono text-white">
             Qualifizierter <br /> Berufskraftfahrer
           </h2>
